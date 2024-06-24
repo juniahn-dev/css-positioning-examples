@@ -164,3 +164,19 @@ a {
     margin: 20px 0;
   }
 }
+
+.to-top-btn {
+  z-index: 99;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+
+  border: none;
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+
+  font-size: 18px;
+}

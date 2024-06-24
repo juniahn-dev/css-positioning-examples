@@ -37,6 +37,9 @@
           </p>
         </article>
       </section>
+      <button class="to-top-btn" onclick="topFunction()" title="Go to top">
+        Top
+      </button>
     </main>
     <footer class="footer">
       <nav aria-label="footer-navigation">
@@ -50,5 +53,11 @@
       <hr />
       <span>&copy; 2024 My Website</span>
     </footer>
+    <script>
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
